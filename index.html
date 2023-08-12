@@ -105,4 +105,18 @@
     <div class="text">
         <h1>Te Quiero mucho Laura</h1>
     </div>
-    <div class="heart"></div
+    <div class="heart"></div>
+        <audio class="music" autoplay controls loop>
+        <source src="miss.mp3" type="audio/mp3">
+    </audio>
+    <script src="confetti.js"></script>
+    <script>
+        const start = () => {
+            setTimeout(function(){
+                confetti.start();
+            });
+        };
+        
+        start();
+    </script>
+</body>
